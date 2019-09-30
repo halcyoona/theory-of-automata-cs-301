@@ -1,0 +1,2523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="12.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap"/>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="edu.usfca.vas.data.DataWrapperFA" id="DataWrapperFA0">
+    <void id="GElementFAMachine0" property="graphicMachine">
+     <void property="elements">
+      <void method="add">
+       <object class="edu.usfca.vas.graphics.fa.GElementFAState" id="GElementFAState0">
+        <void id="Vector2D0" property="position">
+         <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+          <string>x</string>
+          <void method="set">
+           <object idref="Vector2D0"/>
+           <double>176.0</double>
+          </void>
+         </void>
+         <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+          <string>y</string>
+          <void method="set">
+           <object idref="Vector2D0"/>
+           <double>230.0</double>
+          </void>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.vas.graphics.fa.GElementFAState" id="GElementFAState1">
+        <void id="Vector2D1" property="position">
+         <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+          <string>x</string>
+          <void method="set">
+           <object idref="Vector2D1"/>
+           <double>397.0</double>
+          </void>
+         </void>
+         <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+          <string>y</string>
+          <void method="set">
+           <object idref="Vector2D1"/>
+           <double>238.0</double>
+          </void>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.vas.graphics.fa.GElementFAState" id="GElementFAState2">
+        <void id="Vector2D2" property="position">
+         <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+          <string>x</string>
+          <void method="set">
+           <object idref="Vector2D2"/>
+           <double>602.0</double>
+          </void>
+         </void>
+         <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+          <string>y</string>
+          <void method="set">
+           <object idref="Vector2D2"/>
+           <double>239.0</double>
+          </void>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.vas.graphics.fa.GElementFAState" id="GElementFAState3">
+        <void id="Vector2D3" property="position">
+         <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+          <string>x</string>
+          <void method="set">
+           <object idref="Vector2D3"/>
+           <double>460.0</double>
+          </void>
+         </void>
+         <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+          <string>y</string>
+          <void method="set">
+           <object idref="Vector2D3"/>
+           <double>404.0</double>
+          </void>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.xj.appkit.gview.object.GLink" id="GLink0">
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>source</string>
+         <void method="set">
+          <object idref="GLink0"/>
+          <object idref="GElementFAState0"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>target</string>
+         <void method="set">
+          <object idref="GLink0"/>
+          <object idref="GElementFAState1"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>sourceAnchorKey</string>
+         <void method="set">
+          <object idref="GLink0"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>targetAnchorKey</string>
+         <void method="set">
+          <object idref="GLink0"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>pattern</string>
+         <void method="set">
+          <object idref="GLink0"/>
+          <string>a</string>
+         </void>
+        </void>
+        <void property="labelVisible">
+         <boolean>true</boolean>
+        </void>
+        <void property="link">
+         <object class="edu.usfca.xj.appkit.gview.shape.SLinkArc" id="SLinkArc0">
+          <void property="arrow">
+           <void property="anchor">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D4">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D4"/>
+               <double>378.4512201631173</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D4"/>
+               <double>230.5205102738988</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="direction">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D5">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D5"/>
+               <double>-109.05298395516684</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D5"/>
+               <double>-43.973818238517026</double>
+              </void>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="direction">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D6">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D6"/>
+              <double>-5.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D6"/>
+              <double>-11.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="end">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D7">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D7"/>
+              <double>397.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D7"/>
+              <double>238.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="endDirection">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D8"/>
+          </void>
+          <void property="endTangentOffset">
+           <double>20.0</double>
+          </void>
+          <void property="flateness">
+           <double>40.0</double>
+          </void>
+          <void property="label">
+           <void property="position">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D9">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D9"/>
+               <double>288.19313844389643</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D9"/>
+               <double>187.22705048736174</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="title">
+            <string>a</string>
+           </void>
+          </void>
+          <void property="start">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D10">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D10"/>
+              <double>176.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D10"/>
+              <double>230.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="startDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="startTangentOffset">
+           <double>20.0</double>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.xj.appkit.gview.object.GLink" id="GLink1">
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>source</string>
+         <void method="set">
+          <object idref="GLink1"/>
+          <object idref="GElementFAState1"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>target</string>
+         <void method="set">
+          <object idref="GLink1"/>
+          <object idref="GElementFAState2"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>sourceAnchorKey</string>
+         <void method="set">
+          <object idref="GLink1"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>targetAnchorKey</string>
+         <void method="set">
+          <object idref="GLink1"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>pattern</string>
+         <void method="set">
+          <object idref="GLink1"/>
+          <string>b</string>
+         </void>
+        </void>
+        <void property="labelVisible">
+         <boolean>true</boolean>
+        </void>
+        <void property="link">
+         <object class="edu.usfca.xj.appkit.gview.shape.SLinkArc" id="SLinkArc1">
+          <void property="arrow">
+           <void property="anchor">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D11">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D11"/>
+               <double>589.9804159566222</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D11"/>
+               <double>223.0147067770348</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="direction">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D12">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D12"/>
+               <double>-101.84174082710706</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D12"/>
+               <double>-135.44313044305903</double>
+              </void>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="direction">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D13">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D13"/>
+              <double>-108.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D13"/>
+              <double>-68.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="end">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D14">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D14"/>
+              <double>602.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D14"/>
+              <double>239.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="endDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="endTangentOffset">
+           <double>20.0</double>
+          </void>
+          <void property="flateness">
+           <double>134.944735943686</double>
+          </void>
+          <void property="label">
+           <void property="position">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D15">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D15"/>
+               <double>500.0043785824695</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D15"/>
+               <double>135.1023905937579</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="title">
+            <string>b</string>
+           </void>
+          </void>
+          <void property="start">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D16">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D16"/>
+              <double>397.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D16"/>
+              <double>238.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="startDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="startTangentOffset">
+           <double>20.0</double>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.xj.appkit.gview.object.GLink" id="GLink2">
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>source</string>
+         <void method="set">
+          <object idref="GLink2"/>
+          <object idref="GElementFAState0"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>target</string>
+         <void method="set">
+          <object idref="GLink2"/>
+          <object idref="GElementFAState3"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>sourceAnchorKey</string>
+         <void method="set">
+          <object idref="GLink2"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>targetAnchorKey</string>
+         <void method="set">
+          <object idref="GLink2"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>pattern</string>
+         <void method="set">
+          <object idref="GLink2"/>
+          <string>b</string>
+         </void>
+        </void>
+        <void property="labelVisible">
+         <boolean>true</boolean>
+        </void>
+        <void property="link">
+         <object class="edu.usfca.xj.appkit.gview.shape.SLinkArc" id="SLinkArc2">
+          <void property="arrow">
+           <void property="anchor">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D17">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D17"/>
+               <double>440.10802500084</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D17"/>
+               <double>401.9241072684764</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="direction">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D18">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D18"/>
+               <double>-183.56600439909136</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D18"/>
+               <double>-19.1566364980348</double>
+              </void>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="direction">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D19">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D19"/>
+              <double>-99.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D19"/>
+              <double>-14.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="end">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D20">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D20"/>
+              <double>460.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D20"/>
+              <double>404.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="endDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="endTangentOffset">
+           <double>20.0</double>
+          </void>
+          <void property="flateness">
+           <double>-79.56415457330682</double>
+          </void>
+          <void property="label">
+           <void property="position">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D21">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D21"/>
+               <double>282.2643080196812</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D21"/>
+               <double>375.32722139316394</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="title">
+            <string>b</string>
+           </void>
+          </void>
+          <void property="start">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D22">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D22"/>
+              <double>176.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D22"/>
+              <double>230.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="startDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="startTangentOffset">
+           <double>20.0</double>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.xj.appkit.gview.object.GLink" id="GLink3">
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>source</string>
+         <void method="set">
+          <object idref="GLink3"/>
+          <object idref="GElementFAState1"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>target</string>
+         <void method="set">
+          <object idref="GLink3"/>
+          <object idref="GElementFAState3"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>sourceAnchorKey</string>
+         <void method="set">
+          <object idref="GLink3"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>targetAnchorKey</string>
+         <void method="set">
+          <object idref="GLink3"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>pattern</string>
+         <void method="set">
+          <object idref="GLink3"/>
+          <string>a</string>
+         </void>
+        </void>
+        <void property="labelVisible">
+         <boolean>true</boolean>
+        </void>
+        <void property="link">
+         <object class="edu.usfca.xj.appkit.gview.shape.SLinkArc" id="SLinkArc3">
+          <void property="arrow">
+           <void property="anchor">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D23">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D23"/>
+               <double>461.2113013898368</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D23"/>
+               <double>384.0367149761624</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="direction">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D24">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D24"/>
+               <double>5.897324411200543</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D24"/>
+               <double>-97.19296046931106</double>
+              </void>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="direction">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D25">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D25"/>
+              <double>9.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D25"/>
+              <double>6.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="end">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D26">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D26"/>
+              <double>460.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D26"/>
+              <double>404.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="endDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="endTangentOffset">
+           <double>20.0</double>
+          </void>
+          <void property="flateness">
+           <double>40.0</double>
+          </void>
+          <void property="label">
+           <void property="position">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D27">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D27"/>
+               <double>473.57867749217235</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D27"/>
+               <double>303.89182721682613</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="title">
+            <string>a</string>
+           </void>
+          </void>
+          <void property="start">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D28">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D28"/>
+              <double>397.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D28"/>
+              <double>238.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="startDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="startTangentOffset">
+           <double>20.0</double>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.xj.appkit.gview.object.GLink" id="GLink4">
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>source</string>
+         <void method="set">
+          <object idref="GLink4"/>
+          <object idref="GElementFAState3"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>target</string>
+         <void method="set">
+          <object idref="GLink4"/>
+          <object idref="GElementFAState3"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>sourceAnchorKey</string>
+         <void method="set">
+          <object idref="GLink4"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>targetAnchorKey</string>
+         <void method="set">
+          <object idref="GLink4"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>pattern</string>
+         <void method="set">
+          <object idref="GLink4"/>
+          <string>a,b</string>
+         </void>
+        </void>
+        <void property="labelVisible">
+         <boolean>true</boolean>
+        </void>
+        <void property="link">
+         <object class="edu.usfca.xj.appkit.gview.shape.SLinkArc" id="SLinkArc4">
+          <void property="arrow">
+           <void property="anchor">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D29">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D29"/>
+               <double>445.2321540741589</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D29"/>
+               <double>417.4874284691567</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="direction">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D30">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D30"/>
+               <double>-59.07138370336429</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D30"/>
+               <double>53.9497138766269</double>
+              </void>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="direction">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D31">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D31"/>
+              <double>-2.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D31"/>
+              <double>15.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="end">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D32">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D32"/>
+              <double>460.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D32"/>
+              <double>404.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="endDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="endTangentOffset">
+           <double>20.0</double>
+          </void>
+          <void property="flateness">
+           <double>40.0</double>
+          </void>
+          <void property="label">
+           <void property="position">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D33">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D33"/>
+               <double>450.08772099317366</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D33"/>
+               <double>478.3420925511976</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="title">
+            <string>a,b</string>
+           </void>
+          </void>
+          <void property="selfLoop">
+           <boolean>true</boolean>
+          </void>
+          <void property="start">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D34">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D34"/>
+              <double>460.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D34"/>
+              <double>404.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="startDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="startTangentOffset">
+           <double>20.0</double>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.xj.appkit.gview.object.GLink" id="GLink5">
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>source</string>
+         <void method="set">
+          <object idref="GLink5"/>
+          <object idref="GElementFAState2"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>target</string>
+         <void method="set">
+          <object idref="GLink5"/>
+          <object idref="GElementFAState3"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>sourceAnchorKey</string>
+         <void method="set">
+          <object idref="GLink5"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>targetAnchorKey</string>
+         <void method="set">
+          <object idref="GLink5"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>pattern</string>
+         <void method="set">
+          <object idref="GLink5"/>
+          <string>b</string>
+         </void>
+        </void>
+        <void property="labelVisible">
+         <boolean>true</boolean>
+        </void>
+        <void property="link">
+         <object class="edu.usfca.xj.appkit.gview.shape.SLinkArc" id="SLinkArc5">
+          <void property="arrow">
+           <void property="anchor">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D35">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D35"/>
+               <double>479.12995577626526</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D35"/>
+               <double>398.16520848717494</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="direction">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D36">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D36"/>
+               <double>123.19945556985795</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D36"/>
+               <double>-37.57683217624344</double>
+              </void>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="direction">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D37">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D37"/>
+              <double>116.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D37"/>
+              <double>-82.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="end">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D38">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D38"/>
+              <double>460.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D38"/>
+              <double>404.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="endDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="endTangentOffset">
+           <double>20.0</double>
+          </void>
+          <void property="flateness">
+           <double>68.86852814683185</double>
+          </void>
+          <void property="label">
+           <void property="position">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D39">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D39"/>
+               <double>580.3642272510222</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D39"/>
+               <double>363.9831531493645</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="title">
+            <string>b</string>
+           </void>
+          </void>
+          <void property="start">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D40">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D40"/>
+              <double>602.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D40"/>
+              <double>239.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="startDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="startTangentOffset">
+           <double>20.0</double>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.vas.graphics.fa.GElementFAState" id="GElementFAState4">
+        <void id="Vector2D41" property="position">
+         <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+          <string>x</string>
+          <void method="set">
+           <object idref="Vector2D41"/>
+           <double>764.0</double>
+          </void>
+         </void>
+         <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+          <string>y</string>
+          <void method="set">
+           <object idref="Vector2D41"/>
+           <double>235.0</double>
+          </void>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.xj.appkit.gview.object.GLink" id="GLink6">
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>source</string>
+         <void method="set">
+          <object idref="GLink6"/>
+          <object idref="GElementFAState2"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>target</string>
+         <void method="set">
+          <object idref="GLink6"/>
+          <object idref="GElementFAState4"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>sourceAnchorKey</string>
+         <void method="set">
+          <object idref="GLink6"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>targetAnchorKey</string>
+         <void method="set">
+          <object idref="GLink6"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>pattern</string>
+         <void method="set">
+          <object idref="GLink6"/>
+          <string>a</string>
+         </void>
+        </void>
+        <void property="labelVisible">
+         <boolean>true</boolean>
+        </void>
+        <void property="link">
+         <object class="edu.usfca.xj.appkit.gview.shape.SLinkArc" id="SLinkArc6">
+          <void property="arrow">
+           <void property="anchor">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D42">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D42"/>
+               <double>748.3879733684905</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D42"/>
+               <double>222.49941503540578</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="direction">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D43">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D43"/>
+               <double>-82.68408225437929</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D43"/>
+               <double>-66.205331302361</double>
+              </void>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="direction">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D44">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D44"/>
+              <double>-86.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D44"/>
+              <double>-32.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="end">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D45">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D45"/>
+              <double>764.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D45"/>
+              <double>235.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="endDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="endTangentOffset">
+           <double>20.0</double>
+          </void>
+          <void property="flateness">
+           <double>68.2261192733717</double>
+          </void>
+          <void property="label">
+           <void property="position">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D46">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D46"/>
+               <double>681.3463015423271</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D46"/>
+               <double>170.02521246424473</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="title">
+            <string>a</string>
+           </void>
+          </void>
+          <void property="start">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D47">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D47"/>
+              <double>602.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D47"/>
+              <double>239.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="startDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="startTangentOffset">
+           <double>20.0</double>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.xj.appkit.gview.object.GLink" id="GLink7">
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>source</string>
+         <void method="set">
+          <object idref="GLink7"/>
+          <object idref="GElementFAState4"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>target</string>
+         <void method="set">
+          <object idref="GLink7"/>
+          <object idref="GElementFAState3"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>sourceAnchorKey</string>
+         <void method="set">
+          <object idref="GLink7"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>targetAnchorKey</string>
+         <void method="set">
+          <object idref="GLink7"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>pattern</string>
+         <void method="set">
+          <object idref="GLink7"/>
+          <string>b</string>
+         </void>
+        </void>
+        <void property="labelVisible">
+         <boolean>true</boolean>
+        </void>
+        <void property="link">
+         <object class="edu.usfca.xj.appkit.gview.shape.SLinkArc" id="SLinkArc7">
+          <void property="arrow">
+           <void property="anchor">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D48">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D48"/>
+               <double>479.9548436135387</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D48"/>
+               <double>405.343211211692</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="direction">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D49">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D49"/>
+               <double>206.7105317539698</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D49"/>
+               <double>13.914210965720827</double>
+              </void>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="direction">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D50">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D50"/>
+              <double>222.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D50"/>
+              <double>-59.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="end">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D51">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D51"/>
+              <double>460.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D51"/>
+              <double>404.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="endDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="endTangentOffset">
+           <double>20.0</double>
+          </void>
+          <void property="flateness">
+           <double>112.59928598711242</double>
+          </void>
+          <void property="label">
+           <void property="position">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D52">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D52"/>
+               <double>654.3544987312036</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D52"/>
+               <double>395.6879740490291</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="title">
+            <string>b</string>
+           </void>
+          </void>
+          <void property="start">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D53">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D53"/>
+              <double>764.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D53"/>
+              <double>235.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="startDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="startTangentOffset">
+           <double>20.0</double>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.vas.graphics.fa.GElementFAState" id="GElementFAState5">
+        <void id="Vector2D54" property="position">
+         <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+          <string>x</string>
+          <void method="set">
+           <object idref="Vector2D54"/>
+           <double>933.0</double>
+          </void>
+         </void>
+         <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+          <string>y</string>
+          <void method="set">
+           <object idref="Vector2D54"/>
+           <double>227.0</double>
+          </void>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.xj.appkit.gview.object.GLink" id="GLink8">
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>source</string>
+         <void method="set">
+          <object idref="GLink8"/>
+          <object idref="GElementFAState4"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>target</string>
+         <void method="set">
+          <object idref="GLink8"/>
+          <object idref="GElementFAState5"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>sourceAnchorKey</string>
+         <void method="set">
+          <object idref="GLink8"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>targetAnchorKey</string>
+         <void method="set">
+          <object idref="GLink8"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>pattern</string>
+         <void method="set">
+          <object idref="GLink8"/>
+          <string>b</string>
+         </void>
+        </void>
+        <void property="labelVisible">
+         <boolean>true</boolean>
+        </void>
+        <void property="link">
+         <object class="edu.usfca.xj.appkit.gview.shape.SLinkArc" id="SLinkArc8">
+          <void property="arrow">
+           <void property="anchor">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D55">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D55"/>
+               <double>914.5353407907094</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D55"/>
+               <double>219.3151863858153</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="direction">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D56">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D56"/>
+               <double>-86.3913731986097</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D56"/>
+               <double>-35.955258820630604</double>
+              </void>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="direction">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D57">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D57"/>
+              <double>-12.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D57"/>
+              <double>-11.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="end">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D58">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D58"/>
+              <double>933.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D58"/>
+              <double>227.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="endDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="endTangentOffset">
+           <double>20.0</double>
+          </void>
+          <void property="flateness">
+           <double>40.0</double>
+          </void>
+          <void property="label">
+           <void property="position">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D59">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D59"/>
+               <double>846.2043785500096</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D59"/>
+               <double>182.50499686895228</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="title">
+            <string>b</string>
+           </void>
+          </void>
+          <void property="start">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D60">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D60"/>
+              <double>764.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D60"/>
+              <double>235.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="startDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="startTangentOffset">
+           <double>20.0</double>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.xj.appkit.gview.object.GLink" id="GLink9">
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>source</string>
+         <void method="set">
+          <object idref="GLink9"/>
+          <object idref="GElementFAState5"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>target</string>
+         <void method="set">
+          <object idref="GLink9"/>
+          <object idref="GElementFAState3"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>sourceAnchorKey</string>
+         <void method="set">
+          <object idref="GLink9"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>targetAnchorKey</string>
+         <void method="set">
+          <object idref="GLink9"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>pattern</string>
+         <void method="set">
+          <object idref="GLink9"/>
+          <string>b</string>
+         </void>
+        </void>
+        <void property="labelVisible">
+         <boolean>true</boolean>
+        </void>
+        <void property="link">
+         <object class="edu.usfca.xj.appkit.gview.shape.SLinkArc" id="SLinkArc9">
+          <void property="arrow">
+           <void property="anchor">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D61">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D61"/>
+               <double>478.5095786623142</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D61"/>
+               <double>411.5759816356432</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="direction">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D62">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D62"/>
+               <double>318.38170533760945</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D62"/>
+               <double>130.31382273835754</double>
+              </void>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="direction">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D63">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D63"/>
+              <double>344.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D63"/>
+              <double>-4.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="end">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D64">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D64"/>
+              <double>460.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D64"/>
+              <double>404.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="endDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="endTangentOffset">
+           <double>20.0</double>
+          </void>
+          <void property="flateness">
+           <double>233.63240933219961</double>
+          </void>
+          <void property="label">
+           <void property="position">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D65">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D65"/>
+               <double>749.2106109514472</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D65"/>
+               <double>456.35942926573176</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="title">
+            <string>b</string>
+           </void>
+          </void>
+          <void property="start">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D66">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D66"/>
+              <double>933.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D66"/>
+              <double>227.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="startDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="startTangentOffset">
+           <double>20.0</double>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="edu.usfca.xj.appkit.gview.object.GLink" id="GLink10">
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>source</string>
+         <void method="set">
+          <object idref="GLink10"/>
+          <object idref="GElementFAState5"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>target</string>
+         <void method="set">
+          <object idref="GLink10"/>
+          <object idref="GElementFAState4"/>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>sourceAnchorKey</string>
+         <void method="set">
+          <object idref="GLink10"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>targetAnchorKey</string>
+         <void method="set">
+          <object idref="GLink10"/>
+          <string>CENTER</string>
+         </void>
+        </void>
+        <void class="edu.usfca.xj.appkit.gview.object.GLink" method="getField">
+         <string>pattern</string>
+         <void method="set">
+          <object idref="GLink10"/>
+          <string>a</string>
+         </void>
+        </void>
+        <void property="labelVisible">
+         <boolean>true</boolean>
+        </void>
+        <void property="link">
+         <object class="edu.usfca.xj.appkit.gview.shape.SLinkArc" id="SLinkArc10">
+          <void property="arrow">
+           <void property="anchor">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D67">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D67"/>
+               <double>782.4646592092906</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D67"/>
+               <double>242.6848136141847</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="direction">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D68">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D68"/>
+               <double>86.3913731986097</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D68"/>
+               <double>35.955258820630604</double>
+              </void>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="direction">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D69">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D69"/>
+              <double>11.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D69"/>
+              <double>8.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="end">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D70">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D70"/>
+              <double>764.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D70"/>
+              <double>235.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="endDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="endTangentOffset">
+           <double>20.0</double>
+          </void>
+          <void property="flateness">
+           <double>40.0</double>
+          </void>
+          <void property="label">
+           <void property="position">
+            <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D71">
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>x</string>
+              <void method="set">
+               <object idref="Vector2D71"/>
+               <double>850.7956214499904</double>
+              </void>
+             </void>
+             <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+              <string>y</string>
+              <void method="set">
+               <object idref="Vector2D71"/>
+               <double>279.4950031310477</double>
+              </void>
+             </void>
+            </object>
+           </void>
+           <void property="title">
+            <string>a</string>
+           </void>
+          </void>
+          <void property="start">
+           <object class="edu.usfca.xj.appkit.gview.base.Vector2D" id="Vector2D72">
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>x</string>
+             <void method="set">
+              <object idref="Vector2D72"/>
+              <double>933.0</double>
+             </void>
+            </void>
+            <void class="edu.usfca.xj.appkit.gview.base.Vector2D" method="getField">
+             <string>y</string>
+             <void method="set">
+              <object idref="Vector2D72"/>
+              <double>227.0</double>
+             </void>
+            </void>
+           </object>
+          </void>
+          <void property="startDirection">
+           <object idref="Vector2D8"/>
+          </void>
+          <void property="startTangentOffset">
+           <double>20.0</double>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void id="FAMachine0" property="machine">
+      <void id="FAAlphabet0" property="alphabet">
+       <void property="symbols">
+        <void method="clear"/>
+        <void method="add">
+         <string>0</string>
+        </void>
+        <void method="add">
+         <string>2</string>
+        </void>
+       </void>
+      </void>
+      <void property="stateSet">
+       <void method="add">
+        <string>q3</string>
+       </void>
+       <void method="add">
+        <string>q5</string>
+       </void>
+      </void>
+      <void id="FAStates0" property="states">
+       <void property="states">
+        <void method="add">
+         <void class="edu.usfca.vas.graphics.fa.GElementFAState" id="Field0" method="getField">
+          <string>state</string>
+          <void id="FAState0" method="get">
+           <object idref="GElementFAState0"/>
+           <void class="edu.usfca.vas.machine.fa.FAState" method="getField">
+            <string>name</string>
+            <void method="set">
+             <object idref="FAState0"/>
+             <string>q0</string>
+            </void>
+           </void>
+           <void class="edu.usfca.vas.machine.fa.FAState" method="getField">
+            <string>start</string>
+            <void method="set">
+             <object idref="FAState0"/>
+             <boolean>true</boolean>
+            </void>
+           </void>
+           <void class="edu.usfca.vas.machine.fa.FAState" method="getField">
+            <string>accepted</string>
+            <void method="set">
+             <object idref="FAState0"/>
+             <boolean>true</boolean>
+            </void>
+           </void>
+          </void>
+         </void>
+         <object idref="FAState0"/>
+        </void>
+        <void method="add">
+         <void class="edu.usfca.vas.graphics.fa.GElementFAState" id="Field1" method="getField">
+          <string>state</string>
+          <void id="FAState1" method="get">
+           <object idref="GElementFAState1"/>
+           <void class="edu.usfca.vas.machine.fa.FAState" method="getField">
+            <string>name</string>
+            <void method="set">
+             <object idref="FAState1"/>
+             <string>q1</string>
+            </void>
+           </void>
+          </void>
+         </void>
+         <object idref="FAState1"/>
+        </void>
+        <void method="add">
+         <void class="edu.usfca.vas.graphics.fa.GElementFAState" id="Field2" method="getField">
+          <string>state</string>
+          <void id="FAState2" method="get">
+           <object idref="GElementFAState2"/>
+           <void class="edu.usfca.vas.machine.fa.FAState" method="getField">
+            <string>name</string>
+            <void method="set">
+             <object idref="FAState2"/>
+             <string>q2</string>
+            </void>
+           </void>
+          </void>
+         </void>
+         <object idref="FAState2"/>
+        </void>
+        <void method="add">
+         <void class="edu.usfca.vas.graphics.fa.GElementFAState" id="Field3" method="getField">
+          <string>state</string>
+          <void id="FAState3" method="get">
+           <object idref="GElementFAState3"/>
+           <void class="edu.usfca.vas.machine.fa.FAState" method="getField">
+            <string>name</string>
+            <void method="set">
+             <object idref="FAState3"/>
+             <string>q3</string>
+            </void>
+           </void>
+          </void>
+         </void>
+         <object idref="FAState3"/>
+        </void>
+        <void method="add">
+         <void class="edu.usfca.vas.graphics.fa.GElementFAState" id="Field4" method="getField">
+          <string>state</string>
+          <void id="FAState4" method="get">
+           <object idref="GElementFAState4"/>
+           <void class="edu.usfca.vas.machine.fa.FAState" method="getField">
+            <string>name</string>
+            <void method="set">
+             <object idref="FAState4"/>
+             <string>q4</string>
+            </void>
+           </void>
+          </void>
+         </void>
+         <object idref="FAState4"/>
+        </void>
+        <void method="add">
+         <void class="edu.usfca.vas.graphics.fa.GElementFAState" id="Field5" method="getField">
+          <string>state</string>
+          <void id="FAState5" method="get">
+           <object idref="GElementFAState5"/>
+           <void class="edu.usfca.vas.machine.fa.FAState" method="getField">
+            <string>name</string>
+            <void method="set">
+             <object idref="FAState5"/>
+             <string>q5</string>
+            </void>
+           </void>
+           <void class="edu.usfca.vas.machine.fa.FAState" method="getField">
+            <string>accepted</string>
+            <void method="set">
+             <object idref="FAState5"/>
+             <boolean>true</boolean>
+            </void>
+           </void>
+          </void>
+         </void>
+         <object idref="FAState5"/>
+        </void>
+       </void>
+      </void>
+      <void id="FATransitions0" property="transitions">
+       <void property="transitions">
+        <void method="add">
+         <object class="edu.usfca.vas.machine.fa.FATransition" id="FATransition0">
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s1</string>
+           <void method="set">
+            <object idref="FATransition0"/>
+            <string>q0</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>symbol</string>
+           <void method="set">
+            <object idref="FATransition0"/>
+            <string>a</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s2</string>
+           <void method="set">
+            <object idref="FATransition0"/>
+            <string>q1</string>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="edu.usfca.vas.machine.fa.FATransition" id="FATransition1">
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s1</string>
+           <void method="set">
+            <object idref="FATransition1"/>
+            <string>q1</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>symbol</string>
+           <void method="set">
+            <object idref="FATransition1"/>
+            <string>b</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s2</string>
+           <void method="set">
+            <object idref="FATransition1"/>
+            <string>q2</string>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="edu.usfca.vas.machine.fa.FATransition" id="FATransition2">
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s1</string>
+           <void method="set">
+            <object idref="FATransition2"/>
+            <string>q0</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>symbol</string>
+           <void method="set">
+            <object idref="FATransition2"/>
+            <string>b</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s2</string>
+           <void method="set">
+            <object idref="FATransition2"/>
+            <string>q3</string>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="edu.usfca.vas.machine.fa.FATransition" id="FATransition3">
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s1</string>
+           <void method="set">
+            <object idref="FATransition3"/>
+            <string>q1</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>symbol</string>
+           <void method="set">
+            <object idref="FATransition3"/>
+            <string>a</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s2</string>
+           <void method="set">
+            <object idref="FATransition3"/>
+            <string>q3</string>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="edu.usfca.vas.machine.fa.FATransition" id="FATransition4">
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s1</string>
+           <void method="set">
+            <object idref="FATransition4"/>
+            <string>q3</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>symbol</string>
+           <void method="set">
+            <object idref="FATransition4"/>
+            <string>a</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s2</string>
+           <void method="set">
+            <object idref="FATransition4"/>
+            <string>q3</string>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="edu.usfca.vas.machine.fa.FATransition" id="FATransition5">
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s1</string>
+           <void method="set">
+            <object idref="FATransition5"/>
+            <string>q3</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>symbol</string>
+           <void method="set">
+            <object idref="FATransition5"/>
+            <string>b</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s2</string>
+           <void method="set">
+            <object idref="FATransition5"/>
+            <string>q3</string>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="edu.usfca.vas.machine.fa.FATransition" id="FATransition6">
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s1</string>
+           <void method="set">
+            <object idref="FATransition6"/>
+            <string>q2</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>symbol</string>
+           <void method="set">
+            <object idref="FATransition6"/>
+            <string>b</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s2</string>
+           <void method="set">
+            <object idref="FATransition6"/>
+            <string>q3</string>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="edu.usfca.vas.machine.fa.FATransition" id="FATransition7">
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s1</string>
+           <void method="set">
+            <object idref="FATransition7"/>
+            <string>q2</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>symbol</string>
+           <void method="set">
+            <object idref="FATransition7"/>
+            <string>a</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s2</string>
+           <void method="set">
+            <object idref="FATransition7"/>
+            <string>q4</string>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="edu.usfca.vas.machine.fa.FATransition" id="FATransition8">
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s1</string>
+           <void method="set">
+            <object idref="FATransition8"/>
+            <string>q4</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>symbol</string>
+           <void method="set">
+            <object idref="FATransition8"/>
+            <string>b</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s2</string>
+           <void method="set">
+            <object idref="FATransition8"/>
+            <string>q3</string>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="edu.usfca.vas.machine.fa.FATransition" id="FATransition9">
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s1</string>
+           <void method="set">
+            <object idref="FATransition9"/>
+            <string>q4</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>symbol</string>
+           <void method="set">
+            <object idref="FATransition9"/>
+            <string>b</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s2</string>
+           <void method="set">
+            <object idref="FATransition9"/>
+            <string>q5</string>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="edu.usfca.vas.machine.fa.FATransition" id="FATransition10">
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s1</string>
+           <void method="set">
+            <object idref="FATransition10"/>
+            <string>q5</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>symbol</string>
+           <void method="set">
+            <object idref="FATransition10"/>
+            <string>b</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s2</string>
+           <void method="set">
+            <object idref="FATransition10"/>
+            <string>q3</string>
+           </void>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="edu.usfca.vas.machine.fa.FATransition" id="FATransition11">
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s1</string>
+           <void method="set">
+            <object idref="FATransition11"/>
+            <string>q5</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>symbol</string>
+           <void method="set">
+            <object idref="FATransition11"/>
+            <string>a</string>
+           </void>
+          </void>
+          <void class="edu.usfca.vas.machine.fa.FATransition" method="getField">
+           <string>s2</string>
+           <void method="set">
+            <object idref="FATransition11"/>
+            <string>q4</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </void>
+     </void>
+    </void>
+    <void property="string">
+     <string>ababab</string>
+    </void>
+   </object>
+  </void>
+ </object>
+ <int>0</int>
+</java>
